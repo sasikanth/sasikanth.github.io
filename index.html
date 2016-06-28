@@ -1,10 +1,59 @@
-<html>
-    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Sasikanth Nimmagadda</title>
-      <meta name="description" content="Home Page">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Sasikanth Nimmagadda GitHub Profile">
+		<meta name="author" content="Sasikanth">
+        <title>Sasikanth Nimmagadda</title>
+		<link rel="icon" href="resources/img/favicon.ico">
+
+		<title>Sasikanth Nimmagadda</title>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/jquery.fullPage.min.css">
+		<!-- Custom styles -->
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <!-- Compiled and minified CSS -->
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.fullpage/2.5.9/jquery.fullPage.min.js"></script>
+        
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('#fullpage').fullpage({
+					sectionsColor: ['#f5f5f5', '#189179', '#7E8F7C'],
+					css3: true,
+					lockAnchors: false,
+					overflowScroll: false,
+					navigation: true,
+				});
+			});
+		</script>
+	</head>
     <body>
+        <div id="fullpage">
+            <!-- Todo: Profile Section -->
+			<section class="section active" id="profile">
+				<div class="section-profile" align="center">
+					<h1>Hi</h1>
+				</div>
+			</section>
+            <!-- Todo: Work Section -->
+			<section class="section" id="work">
+				<div class="section-work" align="center">
+					<h1>Hello</h1>
+				</div>
+			</section>
+            <!-- Todo: Contact Section -->
+			<section class="section" id="contact">
+				<div class="section-contact" align="center">
+					<h1>Bye</h1>
+				</div>
+			</section>
+        </div>
+       
     </body>
 </html>
+
